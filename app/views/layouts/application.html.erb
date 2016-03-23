@@ -7,7 +7,61 @@
 </head>
 <body>
 
-<%= yield %>
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li class="">
+          <a href="#">Home</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li class="">
+          <a href="#">About</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li class="">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+      <div class="row ">
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+        <div class="col-lg-4">
+          <p>Column<button type="submit" class="btn btn-default">Submit</button></p>
+        </div>
+      </div>
+      
+      <%= yield %>
+    </div>
+
 <%= javascript_include_tag "application" %>
 </body>
 </html>
