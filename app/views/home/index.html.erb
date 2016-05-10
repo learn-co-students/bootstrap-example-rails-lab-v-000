@@ -1,1 +1,11 @@
 <h1>WE HAVE LIFTOFF!</h1>
+<% 3.times do |row_index| %>
+  <div class="row">
+  <% 3.times do |col_index| %>
+    <div class="col-lg-4">
+      <p>This here's crazy!</p>
+      <button type="button" class="btn">Button<%= row_index %>,<%= col_index %></button>
+    </div>
+  <% end %>
+  </div>
+<% end %>
