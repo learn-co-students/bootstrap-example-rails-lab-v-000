@@ -7,6 +7,7 @@ feature "Bootstrap Layout" do
 
   context 'Grid' do
     scenario "Page has a container" do
+      #binding.pry
       expect(page).to have_css("div.container")
     end
 
