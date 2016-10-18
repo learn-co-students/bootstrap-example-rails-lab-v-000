@@ -1,0 +1,60 @@
+
+
+Started GET "/" for ::1 at 2016-10-17 21:58:12 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 587ms (Views: 547.7ms)
+
+
+Started GET "/assets/application.self-f5cffc767ce89c170445d35ad9a9447cce2b1321351f6060068c221b068cb83c.css?body=1" for ::1 at 2016-10-17 21:58:12 -0400
+
+
+Started GET "/assets/jquery-addon.self-c47724155c9624cc51d6e9059655912270f49a624424c2ebe8ccd19db7e997d0.css?body=1" for ::1 at 2016-10-17 21:58:12 -0400
+
+
+Started GET "/assets/bootstrap-addon.self-d00c0ed093cfee700fb3ccc5cdbaf9ffc16b8db725da41917c3324ea3a26991b.css?body=1" for ::1 at 2016-10-17 21:58:12 -0400
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-10-17 21:58:12 -0400
+
+
+Started GET "/" for ::1 at 2016-10-17 21:59:23 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 687ms (Views: 685.9ms)
+
+
+Started GET "/assets/application.self-f5cffc767ce89c170445d35ad9a9447cce2b1321351f6060068c221b068cb83c.css?body=1" for ::1 at 2016-10-17 21:59:23 -0400
+
+
+Started GET "/assets/bootstrap-addon.self-d00c0ed093cfee700fb3ccc5cdbaf9ffc16b8db725da41917c3324ea3a26991b.css?body=1" for ::1 at 2016-10-17 21:59:23 -0400
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-10-17 21:59:24 -0400
+
+
+Started GET "/assets/jquery-addon.self-c47724155c9624cc51d6e9059655912270f49a624424c2ebe8ccd19db7e997d0.css?body=1" for ::1 at 2016-10-17 21:59:24 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-10-17 21:59:24 -0400
+
+
+Started GET "/" for ::1 at 2016-10-17 22:08:28 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 263ms (Views: 257.4ms)
+
+
+Started GET "/assets/application.self-f5cffc767ce89c170445d35ad9a9447cce2b1321351f6060068c221b068cb83c.css?body=1" for ::1 at 2016-10-17 22:08:29 -0400
+
+
+Started GET "/assets/bootstrap-addon.self-d00c0ed093cfee700fb3ccc5cdbaf9ffc16b8db725da41917c3324ea3a26991b.css?body=1" for ::1 at 2016-10-17 22:08:29 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-10-17 22:08:29 -0400
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-10-17 22:08:29 -0400
+
+
+Started GET "/assets/jquery-addon.self-c47724155c9624cc51d6e9059655912270f49a624424c2ebe8ccd19db7e997d0.css?body=1" for ::1 at 2016-10-17 22:08:29 -0400
