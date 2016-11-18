@@ -1,0 +1,12 @@
+
+
+Started GET "/" for ::1 at 2016-11-18 13:37:29 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 449ms (Views: 440.0ms)
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-11-18 13:37:29 -0600
+
+
+Started GET "/assets/application.self-9b98f83962c4574d58b3cd6b04c982132307237c11e34afe1c81cfd38872fbbd.css?body=1" for ::1 at 2016-11-18 13:37:29 -0600
