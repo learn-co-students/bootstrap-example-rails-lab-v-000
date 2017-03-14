@@ -1,0 +1,21 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-13 15:04:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 239ms (Views: 230.0ms)
+
+
+Started GET "/assets/application.self-552535668baa9f32709b0eb6b9961b8e30afbd1cecff2c9ef0333d5eee63503f.css?body=1" for 127.0.0.1 at 2017-03-13 15:04:17 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-03-13 15:04:17 -0500
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2017-03-13 15:04:17 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-13 15:05:30 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.2ms)
