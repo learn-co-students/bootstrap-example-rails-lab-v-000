@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Application Layout</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+</head>
+<body>
+  <div>
+    <ul class='nav navbar-nav'>
+      <li><a href="#">Home</li>
+      <li><a href="#">About</li>
+      <li><a href="#">Contact</li>
+    </ul>
+  </div>
+  <div class='container'>
+      <div class="row col-lg-1">
+        <p>Column #1</p>
+      </div>
+      <div class="row col-lg-1">
+        <p>Column #2</p>
+      </div>
+      <div class="row col-lg-1">
+        <p>Column #3</p>
+  </div>
+  <div class='container'>
+      <div class="col-lg-4">
+        <p></p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column #2</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column #3</p>
+      <div class="col-lg-4">
+        <p>Column #1</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column #2</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column #3</p>
+      <div class="col-lg-4">
+        <p>Column #1</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column #2</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column #3</p>
+      </div>
+  </div>
+   
+  <div class='container'>
+<!--     <div class="row col-lg-4 .btn">
+      <p>Column #1</p>
+    </div>
+    <div class="row col-lg-4 .btn">
+      <p>Column #1</p>
+    </div>
+    <div class="row col-lg-4 .btn">
+      <p>Column #1</p>
+    </div> -->
+  </div>
+
+<%= yield %>
+<%= javascript_include_tag "application" %>
+</body>
+</html>
