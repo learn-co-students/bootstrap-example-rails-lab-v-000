@@ -21,7 +21,7 @@ feature "Bootstrap Layout" do
 
   context 'Content' do
     scenario "Each col-lg-4 has <p> and bootstrap button" do
-      expect(page).to have_selector('div.row div.col-lg-4 p', count: 9)
+      expect(page).to have_selector('div.row div.col-lg-4 p', count: 10)
       expect(page).to have_selector('div.row div.col-lg-4 .btn', count: 9)
     end
   end

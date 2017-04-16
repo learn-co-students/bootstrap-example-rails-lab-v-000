@@ -1,0 +1,109 @@
+
+
+Started GET "/" for 104.228.57.6 at 2017-04-16 18:03:54 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 10166ms (Views: 10104.1ms)
+
+
+Started GET "/assets/application.self-6a64e4602daef2c5e8ad904e94a4903cfd08f0ef8d23aeec7b53a7409c4bbc9e.css?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 104.228.57.6 at 2017-04-16 18:04:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 104.228.57.6 at 2017-04-16 18:05:55 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 134ms (Views: 130.7ms)
+
+
+Started GET "/" for 104.228.57.6 at 2017-04-16 18:06:51 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 132ms (Views: 131.3ms)
+
+
+Started GET "/" for 104.228.57.6 at 2017-04-16 18:07:56 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 120ms (Views: 119.8ms)
+
+
+Started GET "/" for 104.228.57.6 at 2017-04-16 18:08:12 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 120.6ms)
+
+
+Started GET "/" for 104.228.57.6 at 2017-04-16 18:11:31 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 696ms (Views: 685.6ms)
+
+
+Started GET "/" for 104.228.57.6 at 2017-04-16 18:12:05 +0000
+Cannot render console from 104.228.57.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 200ms (Views: 199.3ms)
