@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Application Layout</title>
-  <%= csrf_meta_tags %>
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-</head>
-<body>
+    <head>
+        <title>Application Layout</title>
+        <%= csrf_meta_tags %>
+        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li class="active"><a href="#">About</a></li>
+                            <li class="active"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">Hey</a></div>
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">oh</a></div>
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">where</a></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">did</a></div>
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">you</a></div>
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">go</a></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">whats</a></div>
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">that</a></div>
+                <div class="col-lg-4"><p>Let's do it </p><a class="btn btn-default">song</a></div>
+            </div>
 
-<%= yield %>
-<%= javascript_include_tag "application" %>
-</body>
+        </div>
+        <%= yield %>
+        <%= javascript_include_tag "application" %>
+    </body>
 </html>
