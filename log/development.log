@@ -1,0 +1,216 @@
+
+
+Started GET "/" for ::1 at 2017-06-08 16:58:07 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 399ms (Views: 390.5ms)
+
+
+Started GET "/assets/application.self-5c6d25e3e2236c89a7eb9d0cd85a43b949a7be644fa65c134d5c9a9c7a74b6f2.css?body=1" for ::1 at 2017-06-08 16:58:08 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2017-06-08 16:58:08 -0400
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2017-06-08 16:58:08 -0400
+
+
+Started GET "/" for ::1 at 2017-06-08 17:05:50 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 39ms (Views: 35.5ms)
+
+
+Started GET "/assets/application.self-5c6d25e3e2236c89a7eb9d0cd85a43b949a7be644fa65c134d5c9a9c7a74b6f2.css?body=1" for ::1 at 2017-06-08 17:05:50 -0400
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2017-06-08 17:05:50 -0400
+
+
+Started GET "/" for ::1 at 2017-06-08 17:06:38 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:07:20 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.1ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:09:02 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.7ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:09:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:11:27 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2971ms (Views: 2971.0ms)
+
+
+Started GET "/assets/application.self-10423f690fe7f1c31618a564c3087bee46c4a6774973b06f95a389162d9dd8bc.css?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2017-06-08 17:11:30 -0400
+
+
+Started GET "/" for ::1 at 2017-06-08 17:12:09 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 40.1ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:12:25 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 52.2ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:12:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.7ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:12:47 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:12:57 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.9ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:13:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:13:53 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.4ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:14:19 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.5ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:14:20 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.9ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:14:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.2ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:15:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 38.6ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:18:21 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 33.9ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:18:44 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.7ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:22:29 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 57.5ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:22:41 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 50.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:23:20 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.5ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:23:25 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.2ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:29:07 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 293ms (Views: 284.8ms)
+
+
+Started GET "/" for ::1 at 2017-06-08 17:29:27 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 76ms (Views: 76.0ms)
