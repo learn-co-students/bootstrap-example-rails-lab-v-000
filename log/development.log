@@ -157,3 +157,18 @@ Started GET "/" for ::1 at 2017-06-15 23:16:17 -0400
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started GET "/" for ::1 at 2017-06-15 23:17:25 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2514ms (Views: 2513.7ms)
+
+
+Started GET "/" for ::1 at 2017-06-15 23:17:27 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.4ms)
+
+
+Started GET "/assets/application.self-585b3cf6566286a8e4823aeeb7f9104af88f889cff3cff8871519916a5e4ce98.css?body=1" for ::1 at 2017-06-15 23:17:27 -0400
