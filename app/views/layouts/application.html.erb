@@ -6,8 +6,62 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+	<div class="container">
+		<ul class="nav navbar-nav">
+			<li><a href="#">Home</li>
+			<li><a href="#">About</li>
+			<li><a href="#">Contact</li>
+		</ul>
+			
+		<div class="row">
+			<div class="col-lg-4">
+				<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+			<div class="col-lg-4">
+				<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+			<div class="col-lg-4">
+				<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+			<div class="col-lg-4">
+				<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+			<div class="col-lg-4">
+				<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+					<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+			<div class="col-lg-4">
+				<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+			<div class="col-lg-4">
+				<p>text <button type="button" class="btn btn-primary">Primary</button> </p>
+			</div>
+
+		</div>
+		
+	</div>
 
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
 </html>
+
+<!--
+ - Inside the `<body>` tag, create a `<div>` tag with the CSS class
+    `container`.
+  - Inside the `container` element, create 3 `<div>` tags with the CSS class
+    `row`.
+  - Inside each of the `row` elements, create 3 evenly sized columns.
+    - In each column, add a `<p>` tag with some text and a Bootstrap button.
+  - Also inside of the `container` element, create a navigation bar with 3
+    links, **Home**, **About**, **Contact**. Set the `href` attribute of each to `#`.
+    --> 
