@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Application Layout</title>
-  <%= csrf_meta_tags %>
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <title>Application Layout</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li><a href="#">Home</li>
+                <li><a href="#">About</li>
+                    <li><a href="#">Contact</li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                            </div>
+                            <div class="col-lg-4">
+                                <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                            </div>
+                            <div class="col-lg-4">
+                                <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p>text <button type="button" class="btn btn-primary">Primary</button></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<%= yield %>
-<%= javascript_include_tag "application" %>
-</body>
-</html>
+        <%= yield %>
+        <%= javascript_include_tag "application" %>
+    </body>
+    </html>
