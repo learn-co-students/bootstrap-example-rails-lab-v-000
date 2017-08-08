@@ -6,8 +6,58 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
-<%= yield %>
-<%= javascript_include_tag "application" %>
+  <div class="container">
+    <nav>
+      <ul class="nav navbar-nav">
+        <li href="#">Home</li>
+        <li href="#">About</li>
+        <li href="#">Contact</li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+      <div class="col-lg-4">
+        <p>some text</p>
+        <a href="#" class="btn btn-default">button</p>
+      </div>
+    </div>
+  </div>
+  <%= yield %>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>
