@@ -1,0 +1,78 @@
+
+
+Started GET "/" for ::1 at 2017-08-16 17:31:13 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2667ms (Views: 2660.0ms)
+
+
+Started GET "/assets/application.self-3b7c1d22faa20c5b56451f96a0509e288c46fe256253533d839bb1ff9a4f1849.css?body=1" for ::1 at 2017-08-16 17:31:16 -0400
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2017-08-16 17:31:16 -0400
+
+
+Started GET "/" for ::1 at 2017-08-16 17:32:00 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 14.4ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:33:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 14.8ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:34:09 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.3ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:36:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:36:26 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.6ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:36:36 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:36:41 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:36:48 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.9ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:37:02 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:38:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.5ms)
+
+
+Started GET "/" for ::1 at 2017-08-16 17:38:56 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.9ms)
