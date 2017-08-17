@@ -1,0 +1,27 @@
+
+
+Started GET "/" for ::1 at 2017-08-17 00:11:44 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1884ms (Views: 1874.6ms)
+
+
+Started GET "/assets/application.self-85da2100ea84315bf47719b50190efd88a257113b327d3f236bbeb64d88eb63d.css?body=1" for ::1 at 2017-08-17 00:11:45 -0400
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-08-17 00:11:46 -0400
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2017-08-17 00:11:46 -0400
+
+
+Started GET "/" for ::1 at 2017-08-17 00:58:00 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 346ms (Views: 337.0ms)
+
+
+Started GET "/" for ::1 at 2017-08-17 00:58:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 19.1ms)
