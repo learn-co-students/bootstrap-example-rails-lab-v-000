@@ -38,10 +38,18 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (6.0.3)
+    autoprefixer-rails (7.1.3)
+      execjs
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+<<<<<<< HEAD
     bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
+=======
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+>>>>>>> 03bae0ba987810395b9baa0df7091810d98581a9
     builder (3.2.2)
     byebug (8.2.2)
     capybara (2.6.2)
