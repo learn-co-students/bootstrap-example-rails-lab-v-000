@@ -6,7 +6,59 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
+  <header>
+    <nav>
+      <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <p>For man to be able to live</p>
+        <button type="button" class="btn btn-primary">!</button>
+      </div>
+      <div class="col-lg-4">
+        <p>he must not see the infinite,</p>
+        <button type="button" class="btn btn-primary">@</button>
+      </div>
+      <div class="col-lg-4">
+        <p>or have such an explanation of the</p>
+        <button type="button" class="btn btn-primary">#</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>meaning of life as will connect</p>
+        <button type="button" class="btn btn-primary">$</button>
+      </div>
+      <div class="col-lg-4">
+        <p>the finite</p>
+        <button type="button" class="btn btn-primary">%</button>
+      </div>
+      <div class="col-lg-4">
+        <p>with the infinite.</p>
+        <button type="button" class="btn btn-primary">^</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>It's not what we do once in</p>
+        <button type="button" class="btn btn-primary">&</button>
+      </div>
+      <div class="col-lg-4">
+        <p>awhile that shape our lives.</p>
+        <button type="button" class="btn btn-primary">*</button>
+      </div>
+      <div class="col-lg-4">
+        <p>It's what we do consistently.</p>
+        <button type="button" class="btn btn-primary">(</button>
+      </div>
+    </div>
+  </div>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
