@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Application Layout</title>
-  <%= csrf_meta_tags %>
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-</head>
-<body>
-
-<%= yield %>
-<%= javascript_include_tag "application" %>
-</body>
+  
+  <head>
+    <title>Application Layout</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  </head>
+  <body>     
+   
+    
+    <div class="container">
+ <div class="container">
+    <nav class="navbar navbar-light bg-faded navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"> WebsiteName </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+        <%= yield %>
+        <%= javascript_include_tag "application" %>
+    </div>
+  </body>
 </html>
