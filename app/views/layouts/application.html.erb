@@ -6,8 +6,30 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+<div class="container">
+
+  <nav>
+    <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <%= 3.times do %>
+    <div class="row">
+      <%= 3.times do %>
+      <div class="col-lg-4">
+        <p>Some text
+          <button class="btn btn-primary" type="submit">Button</button>
+        </p>
+      </div>
+      <% end %>
+    </div>
+  <% end %>
 
 <%= yield %>
+
 <%= javascript_include_tag "application" %>
 </body>
 </html>
