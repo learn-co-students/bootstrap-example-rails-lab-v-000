@@ -6,7 +6,51 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
+  <div class="container">
+    <%= render 'layouts/navbar'%>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>text 1</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>text 2</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>text 3</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>text 4</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>text 5</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>text 6</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>text 7</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>text 8</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>text 9</p>
+        <button type="button" class="btn">Button</button>
+      </div>
+    </div>
+  </div>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
