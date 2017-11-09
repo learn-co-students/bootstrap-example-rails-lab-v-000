@@ -6,6 +6,31 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+<div class="container">
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+  </div><!-- /.navbar-collapse -->
+
+  <div class="row">
+    <div class="col-lg-4"><p class="btn">Yo</p></div>
+    <div class="col-lg-4"><p class="btn">Sir</p></div>
+    <div class="col-lg-4"><p class="btn">Cat</p></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4"><p class="btn">Doglearn</p></div>
+    <div class="col-lg-4"><p class="btn"></p></div>
+    <div class="col-lg-4"><p class="btn"></p></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4"><p class="btn"></p></div>
+    <div class="col-lg-4"><p class="btn"></p></div>
+    <div class="col-lg-4"><p class="btn"></p></div>
+  </div>
+</div>
 
 <%= yield %>
 <%= javascript_include_tag "application" %>
