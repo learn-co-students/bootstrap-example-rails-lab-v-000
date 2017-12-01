@@ -6,8 +6,59 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <p> Row 1 Column 1</p>
+        <button type="button" class="btn btn">Row 1 Button</button>
+      </div>
 
-<%= yield %>
-<%= javascript_include_tag "application" %>
+      <div class="col-lg-4">
+        <p>Row 1 Column 2</p>
+        <button type="button" class="btn btn">Row 1 Button</button>
+      </div>
+
+      <div class="col-lg-4">
+        <p>Row 1 Column 3</p>
+        <button type="button" class="btn btn">Row 1 Button</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p> Row 2 Column 1</p>
+        <button type="button" class="btn btn-primary">Row 2 Button</button>
+      </div>
+
+      <div class="col-lg-4">
+        <p>Row 2 Column 2</p>
+        <button type="button" class="btn btn-primary">Row 2 Button</button>
+      </div>
+
+      <div class="col-lg-4">
+        <p>Row 2 Column 3</p>
+        <button type="button" class="btn btn-primary">Row 2 Button</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p> Row 3 Column 1</p>
+        <button type="button" class="btn btn-info">Row 3 Button</button>
+      </div>
+
+      <div class="col-lg-4">
+        <p>Row 3 Column 2</p>
+        <button type="button" class="btn btn-info">Row 3 Button</button>
+      </div>
+
+      <div class="col-lg-4">
+        <p>Row 3 Column 3</p>
+        <button type="button" class="btn btn-info">Row 3 Button</button>
+      </div>
+    </div>
+  </div>
+  <%= yield %>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>
