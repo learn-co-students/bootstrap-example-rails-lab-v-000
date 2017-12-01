@@ -3,10 +3,23 @@
 <head>
   <title>Application Layout</title>
   <%= csrf_meta_tags %>
+  <!-- setting intial scale to 1, width of screen = 100% -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
   <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="navbar-header">
+        <span class="navbar-brand">Navbar</span>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
     <div class="row">
       <div class="col-lg-4">
         <p> Row 1 Column 1</p>
