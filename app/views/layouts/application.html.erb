@@ -6,6 +6,69 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+	<div class="container">
+		
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<header class="navbar-header">
+					<a class="navbar-brand" href="#">FlatironSchool</a>
+				</header>
+
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>		
+				</ul>
+			</div>
+		</nav>
+
+
+		<div class="row">			
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+			<div class="col-lg-4">
+				<p>This is a boostrap Column with Button</p>
+				<%= link_to 'Button', '#', :class => "btn btn-primary" %>
+			</div>
+		</div>
+
+	</div>
 
 <%= yield %>
 <%= javascript_include_tag "application" %>
