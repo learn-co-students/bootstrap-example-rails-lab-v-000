@@ -6,7 +6,50 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am Row 1 with 3 columns</p>
+      </div>
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am row 1 with 3 columns</p>
+      </div>
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am row 1 with 3 columns</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am row 2 with 3 columns</p>
+      </div>
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am row 2 with 3 columns</p>
+      </div>
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am row 2 with 3 columns</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am row 3 with 3 columns</p>
+      </div>
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am row 3 with 3 columns</p>
+      </div>
+      <div class="col-lg-4">
+        <p class="btn btn-primary">I am row 3 with 3 columns</p>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-defualt">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
