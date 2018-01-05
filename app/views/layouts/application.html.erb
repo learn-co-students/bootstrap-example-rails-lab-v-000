@@ -5,9 +5,61 @@
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
-<body>
+<body >
 
-<%= yield %>
-<%= javascript_include_tag "application" %>
+<ul class="nav navbar-nav"> 
+  <li><a class="navbar-brand" href="#">Home</a></li>
+  <li><a class="navbar-brand" href="#">About</a></li>
+  <li><a class="navbar-brand" href="#">Contact</a></li>
+</ul>
+<div class="container">
+  <div class="row">
+          <div class="col-lg-4">
+            <p>doe</p>
+            <button type="button" name="button" class="btn btn-primary">fasoladi</button>          </div>
+          <div class="col-lg-4">
+            <p>doe</p>
+            <button type="button" name="button" class="btn btn-primary">fasoladi</button>          </div>
+          <div class="col-lg-4">
+            <p>doe</p>
+            <button type="button" name="button" class="btn btn-primary">fasoladi</button>          </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button type="button" name="button" class="btn btn-danger">sing</button>
+  </div>
+  <div class="row">
+          <div class="col-lg-4">
+            <p>ray</p>
+            <button type="button" name="button" class="btn btn-primary">the sound of music</button>          </div>
+          <div class="col-lg-4">
+            <p>ray</p>
+            <button type="button" name="button" class="btn btn-primary">the sound of music</button>
+          </div>
+          <div class="col-lg-4">
+            <p>ray</p>
+            <button type="button" name="button" class="btn btn-primary">the sound of music</button>
+          </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button type="button" name="button" class="btn btn-danger">please</button>
+  </div>
+  <div class="row">
+          <div class="col-lg-4">
+            <p>me</p>
+            <button type="button" name="button" class="btn btn-primary">singalong</button>
+          </div>
+          <div class="col-lg-4">
+            <p>me</p>
+            <button type="button" name="button" class="btn btn-primary">singalong</button>
+          </div>
+          <div class="col-lg-4">
+            <p>me</p>
+            <button type="button" name="button" class="btn btn-primary">singalong</button>
+          </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button type="button" name="button" class="btn btn-danger">shout</button>
+  </div>
+  <%= yield %>
+  <%= javascript_include_tag "application" %>
+
+</div>
 </body>
 </html>
