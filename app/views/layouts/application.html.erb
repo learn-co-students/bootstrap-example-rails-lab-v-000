@@ -7,7 +7,64 @@
 </head>
 <body>
 
-<%= yield %>
 <%= javascript_include_tag "application" %>
+<div class="container">
+  <nav class="navbar">
+    <ul class="nav navbar-nav navbar-light">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="row">
+    <div class="col-lg-4">
+      <p>Hey</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+    <div class="col-lg-4">
+      <p>Hi</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+    <div class="col-lg-4">
+      <p>Hello</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <p>Bye</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+    <div class="col-lg-4">
+      <p>Adios</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+    <div class="col-lg-4">
+      <p>Merci</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <p>Sorry</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+    <div class="col-lg-4">
+      <p>My Bad</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+    <div class="col-lg-4">
+      <p>Yeah...</p>
+      <button type="button" class="btn btn-primary">This is a button!</button>
+    </div>
+  </div>
+  <%= yield %>
+</div>
 </body>
 </html>
