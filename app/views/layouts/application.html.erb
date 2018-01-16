@@ -6,8 +6,58 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
-<%= yield %>
-<%= javascript_include_tag "application" %>
+  <div class="container">
+    <ul class="nav navbar-nav">
+     <div class="navbar-nav">
+         <li><a class="home" href="#">Home</a></li>
+         <li><a class="about" href="#">About</a></li>
+         <li><a class="contact" href="#">Contact</a></li>
+    </div>
+    </ul>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Filler Text A</p>
+        <button type="button" class="btn">A Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>Filler Text B</p>
+        <button type="button" class="btn">B Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>Filler Text C</p>
+        <button type="button" class="btn">C Button</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Filler Text A</p>
+        <button type="button" class="btn">A Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>Filler Text B</p>
+        <button type="button" class="btn">B Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>Filler Text C</p>
+        <button type="button" class="btn">C Button</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Filler Text A</p>
+        <button type="button" class="btn">A Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>Filler Text B</p>
+        <button type="button" class="btn">B Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>Filler Text C</p>
+        <button type="button" class="btn">C Button</button>
+      </div>
+    </div>
+  </div>
+  <%= yield %>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>
