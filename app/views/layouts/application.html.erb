@@ -7,7 +7,57 @@
 </head>
 <body>
 
-<%= yield %>
-<%= javascript_include_tag "application" %>
+  <%= yield %>
+  <div class="container">
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a class="navbar-brand" href="#">Home</a></li>
+        <li><a class="navbar-brand" href="#">About</a></li>
+        <li><a class="navbar-brand" href="#">Contact</a></li>
+      </ul>
+    </nav><br /><hr />
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-info">Info</button>
+</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-info">Info</button>
+</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-info">Info</button>
+</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-success">Success</button>
+</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-success">Success</button>
+</p>
+      </div>
+      <div class="col-lg-4">
+        <p>Click <button type="button" class="btn btn-success">Success</button>
+</p>
+      </div>
+    </div>
+  </div>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>
