@@ -6,7 +6,56 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar">
+      <ul class="nav navbar-nav">
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#">About</a></li>
+        <li><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </nav>
 
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p>This is a simple button tag <button class="btn btn-default" type="submit">Button</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p>This is a default button <button class="btn btn-default" type="button">Default</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p>This is a primary one <button class="btn btn-primary" type="button">Button</button></p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Indicates a successful or positive action <button class="btn btn-success" type="button">Success</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p>Contextual button for informational alert messages <button class="btn btn-info" type="button">Info</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p>Indicates caution should be taken with this action <button class="btn btn-warning" type="button">Warning</button></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p>This is a simple button tag</p>
+        <button class="btn btn-default" type="submit">Button</button>
+      </div>
+      <div class="col-lg-4">
+        <p>This is a default button</p>
+        <button class="btn btn-default" type="button">Default</button>
+      </div>
+      <div class="col-lg-4">
+        <p>This is a primary one</p>
+        <button class="btn btn-primary" type="button">Button</button>
+      </div>
+    </div>
+
+  </div>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
