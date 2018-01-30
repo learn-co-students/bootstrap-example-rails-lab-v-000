@@ -1,0 +1,90 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-04 18:46:57 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 286ms (Views: 275.7ms)
+
+
+Started GET "/assets/application.self-a22c1b857d55ae1dd1799bd481ddc46d1043702d60cad4636b9cacc89ebf8c66.css?body=1" for 127.0.0.1 at 2016-04-04 18:46:57 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-04-04 18:46:57 -0400
+
+
+Started GET "/assets/application.self-641f14018bb454eb641244e236ebbcdbd5f23ff5da78930fc9859d81fb25f716.js?body=1" for 127.0.0.1 at 2016-04-04 18:46:57 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-04 18:48:28 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 43ms (Views: 42.2ms)
+
+
+Started GET "/assets/application.self-a22c1b857d55ae1dd1799bd481ddc46d1043702d60cad4636b9cacc89ebf8c66.css?body=1" for 127.0.0.1 at 2016-04-04 18:48:28 -0400
+
+
+Started GET "/assets/application.self-641f14018bb454eb641244e236ebbcdbd5f23ff5da78930fc9859d81fb25f716.js?body=1" for 127.0.0.1 at 2016-04-04 18:48:28 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-04-04 18:48:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-04 18:49:48 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 33.9ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-04-04 18:49:48 -0400
+
+
+Started GET "/assets/application.self-a22c1b857d55ae1dd1799bd481ddc46d1043702d60cad4636b9cacc89ebf8c66.css?body=1" for 127.0.0.1 at 2016-04-04 18:49:48 -0400
+
+
+Started GET "/assets/application.self-641f14018bb454eb641244e236ebbcdbd5f23ff5da78930fc9859d81fb25f716.js?body=1" for 127.0.0.1 at 2016-04-04 18:49:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-04 18:52:18 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 34.1ms)
+
+
+Started GET "/assets/application.self-a22c1b857d55ae1dd1799bd481ddc46d1043702d60cad4636b9cacc89ebf8c66.css?body=1" for 127.0.0.1 at 2016-04-04 18:52:18 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-04-04 18:52:18 -0400
+
+
+Started GET "/assets/application.self-641f14018bb454eb641244e236ebbcdbd5f23ff5da78930fc9859d81fb25f716.js?body=1" for 127.0.0.1 at 2016-04-04 18:52:18 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-04 18:52:22 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 45.8ms)
+
+
+Started GET "/assets/application.self-a22c1b857d55ae1dd1799bd481ddc46d1043702d60cad4636b9cacc89ebf8c66.css?body=1" for 127.0.0.1 at 2016-04-04 18:52:22 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-04-04 18:52:22 -0400
+
+
+Started GET "/assets/application.self-641f14018bb454eb641244e236ebbcdbd5f23ff5da78930fc9859d81fb25f716.js?body=1" for 127.0.0.1 at 2016-04-04 18:52:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-04 18:52:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 19.3ms)
+
+
+Started GET "/assets/application.self-a22c1b857d55ae1dd1799bd481ddc46d1043702d60cad4636b9cacc89ebf8c66.css?body=1" for 127.0.0.1 at 2016-04-04 18:52:32 -0400
+
+
+Started GET "/assets/application.self-641f14018bb454eb641244e236ebbcdbd5f23ff5da78930fc9859d81fb25f716.js?body=1" for 127.0.0.1 at 2016-04-04 18:52:32 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-04-04 18:52:32 -0400
