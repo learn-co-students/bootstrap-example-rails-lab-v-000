@@ -1,0 +1,183 @@
+
+
+Started GET "/" for ::1 at 2016-09-13 15:28:52 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 492ms (Views: 481.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 15:28:53 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59ms (Views: 58.3ms)
+
+
+Started GET "/assets/application.self-566ac8a2a9254ff922fe528fad824760b7ba9fc22c67bce64d7d8de96c9e4bad.css?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-09-13 15:28:53 -0400
+
+
+Started GET "/" for ::1 at 2017-04-03 16:29:14 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 287ms (Views: 279.6ms)
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/application.self-566ac8a2a9254ff922fe528fad824760b7ba9fc22c67bce64d7d8de96c9e4bad.css?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2017-04-03 16:29:15 -0400
+
+
+Started GET "/" for ::1 at 2017-04-03 16:30:59 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 63.2ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:32:13 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.9ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:32:16 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.8ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:33:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 24.1ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:33:46 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.5ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:34:20 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 209ms (Views: 201.7ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:35:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2890ms (Views: 2889.2ms)
+
+
+Started GET "/assets/application.self-23ed396d82af1d052716bec2aa708ea61714fbf2a857d6492a4d67d8fadbd793.css?body=1" for ::1 at 2017-04-03 16:35:04 -0400
+
+
+Started GET "/" for ::1 at 2017-04-03 16:35:23 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.1ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:35:37 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 42.4ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:35:48 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:36:05 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 48.2ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:37:27 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 310ms (Views: 302.5ms)
+
+
+Started GET "/" for ::1 at 2017-04-03 16:37:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 73ms (Views: 72.6ms)
