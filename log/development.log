@@ -1,0 +1,57 @@
+
+
+Started GET "/" for ::1 at 2016-07-30 11:26:00 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 323ms (Views: 313.5ms)
+
+
+Started GET "/assets/application.self-9e4a948289ed1985c85c1854d5b3b9b55f043a9da3a35d68c0ebc7afd53a8b17.css?body=1" for ::1 at 2016-07-30 11:26:00 -0600
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-07-30 11:26:00 -0600
+
+
+Started GET "/" for ::1 at 2016-07-30 11:26:23 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 28.8ms)
+
+
+Started GET "/assets/application.self-9e4a948289ed1985c85c1854d5b3b9b55f043a9da3a35d68c0ebc7afd53a8b17.css?body=1" for ::1 at 2016-07-30 11:26:23 -0600
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-07-30 11:26:23 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-07-30 11:26:23 -0600
+
+
+Started GET "/" for ::1 at 2016-07-30 11:30:06 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 25.7ms)
+
+
+Started GET "/assets/application.self-9e4a948289ed1985c85c1854d5b3b9b55f043a9da3a35d68c0ebc7afd53a8b17.css?body=1" for ::1 at 2016-07-30 11:30:06 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-07-30 11:30:06 -0600
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-07-30 11:30:06 -0600
+
+
+Started GET "/" for ::1 at 2016-07-30 11:32:21 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started GET "/assets/application.self-9e4a948289ed1985c85c1854d5b3b9b55f043a9da3a35d68c0ebc7afd53a8b17.css?body=1" for ::1 at 2016-07-30 11:32:21 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-07-30 11:32:21 -0600
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-07-30 11:32:21 -0600
