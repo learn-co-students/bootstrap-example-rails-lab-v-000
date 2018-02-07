@@ -85,3 +85,24 @@ Started GET "/" for 127.0.0.1 at 2018-02-06 22:03:25 -0500
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 130ms (Views: 130.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 22:09:12 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 216ms (Views: 208.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 22:09:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 52ms (Views: 51.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 22:10:18 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2352ms (Views: 2351.5ms)
+
+
+Started GET "/assets/application.self-b1590c73d2f08f14dba27c0b3fae7ca80b9ff693814bade86b74cc65cc671349.css?body=1" for 127.0.0.1 at 2018-02-06 22:10:20 -0500
