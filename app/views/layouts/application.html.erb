@@ -6,7 +6,68 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Contact</a></li>
+    </nav>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Column 1A
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></button>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column 2A
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-center" aria-hidden="true"></span></button>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column 3A
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-right" aria-hidden="true"></span></button>
+        </p>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Column 1B
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></button>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column 2B
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-center" aria-hidden="true"></span></button>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column 3B
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-right" aria-hidden="true"></span></button>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p>Column 1C
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></button>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column 2C
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-center" aria-hidden="true"></span></button>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>Column 3C
+          <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-align-right" aria-hidden="true"></span></button>
+        </p>
+      </div>
+    </div>
+
+  </div>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
