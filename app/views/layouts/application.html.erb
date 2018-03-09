@@ -6,8 +6,90 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button1</button>
+          </div>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button2</button>
+          </div>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button3</button>
+          </div>
+        </p>
+      </div>
+    </div>
 
-<%= yield %>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button4</button>
+          </div>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button5</button>
+          </div>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button6</button>
+          </div>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button7</button>
+          </div>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button8</button>
+          </div>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button9</button>
+          </div>
+        </p>
+      </div>
+    </div>
+
+    <ul class="nav navbar-nav">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#">About</a></li>
+      <li role="presentation"><a href="#">Contact</a></li>
+    </ul>
+
+
+  </div>
+  <%= yield %>
+
 <%= javascript_include_tag "application" %>
 </body>
 </html>
