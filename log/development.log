@@ -262,3 +262,24 @@ Cannot render console from 72.221.71.182! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 106ms (Views: 105.0ms)
+
+
+Started GET "/" for 72.221.71.182 at 2018-03-14 02:10:14 +0000
+Cannot render console from 72.221.71.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1079ms (Views: 1061.2ms)
+
+
+Started GET "/" for 72.221.71.182 at 2018-03-14 02:12:09 +0000
+Cannot render console from 72.221.71.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 234ms (Views: 233.4ms)
+
+
+Started GET "/" for 72.221.71.182 at 2018-03-14 02:12:17 +0000
+Cannot render console from 72.221.71.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 121ms (Views: 120.8ms)
