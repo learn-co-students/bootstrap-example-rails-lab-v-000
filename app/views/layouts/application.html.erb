@@ -6,7 +6,59 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar">
+      <ul class="nav navbar-nav">
+      <li> <a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+    <li>  <a href="#">Contact</a></li>
+    </ul>
+    </nav>
+    <div class="row">
+      <div class="col-lg-4">
+        <p> Stuck in my head, stuck in my heart, stuck in my body. I'd run away, run away with you. </p>
+        <button type="button" class="btn btn-primary">Run Away With Me</button>
+      </div>
+      <div class="col-lg-4">
+        <p> Hey, I just met you. And this is crazy. But here's my number. So call me, maybe? </p>
+        <button type="button" class="btn btn-warning">Call Me Maybe</button>
+      </div>
+      <div class="col-lg-4">
+        <p> I can't lie. I love the feeling of how you make me shine. I'll share my secrets and I will not lie. </p>
+        <button type="button" class="btn btn-danger">Gimme Love</button>
 
+      </div>
+   </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p> When you move, it's like a disco darling - all my dreams come true </p>
+        <button type="button" class="btn btn-success">Untitled</button>
+
+      </div>
+      <div class="col-lg-4">
+        <p> I wanna cut through the clouds, break the ceiling - I wanna dance on the roof, you and me alone </p>
+        <button type="button" class="btn btn-warning">Cut To The Feeling</button>
+      </div>
+      <div class="col-lg-4">
+        <p> Baby, I'm speeding. And red lights all run. What you've got, I need it. I'm coming to get ya, to get ya. </p>
+          <button type="button" class="btn btn-success">Making The Most Of The Night</button>
+      </div>
+     </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p> I wanna touch your heart; I wanna crush it in my hands. Make you plead, make you cry, as you give up all the lies. </p>
+        <button type="button" class="btn btn-primary">Tonight I'm Getting Over You</button>
+      </div>
+      <div class="col-lg-4">
+        <p>Let down my guard tonight. I just don't care anymore. And I cannot control it; the way you're making me feel. </p>
+        <button type="button" class="btn btn-danger">Warm Blood</button>
+      </div>
+      <div class="col-lg-4">
+        <p> I didn't just come here to dance, if you know what I mean, do you know what I mean? If you just give me a chance, you'll see what I see; do you see what I see? </p>
+        <button type="button" class="btn btn-warning">I Didn't Come Here To Dance</button>
+      </div>
+    </div>
+  </div>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
