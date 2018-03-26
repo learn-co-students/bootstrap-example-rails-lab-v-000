@@ -1,0 +1,19 @@
+
+
+Started GET "/" for 198.200.74.206 at 2018-03-26 01:02:58 +0000
+Cannot render console from 198.200.74.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8432ms (Views: 8421.5ms)
+
+
+Started GET "/assets/application.self-0d940c9cf462b3a23027cab6073bb78e5f9d4ade28d7a927dae45d6f684cc54f.css?body=1" for 198.200.74.206 at 2018-03-26 01:03:07 +0000
+Cannot render console from 198.200.74.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 198.200.74.206 at 2018-03-26 01:03:08 +0000
+Cannot render console from 198.200.74.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 198.200.74.206 at 2018-03-26 01:03:08 +0000
+Cannot render console from 198.200.74.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
