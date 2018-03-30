@@ -6,8 +6,16 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
-<%= yield %>
-<%= javascript_include_tag "application" %>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <%= yield %>
+    <%= javascript_include_tag "application" %>
+  </div>
 </body>
 </html>
