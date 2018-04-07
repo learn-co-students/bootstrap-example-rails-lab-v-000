@@ -7,7 +7,10 @@
 </head>
 <body>
 
-<%= yield %>
-<%= javascript_include_tag "application" %>
+<div class="container">
+<%= render partial: "layouts/navigation" %>
+  <%= yield %>
+  <%= javascript_include_tag "application" %>
+</div>
 </body>
 </html>

@@ -1,0 +1,14 @@
+<h1>Making Pages!</h1>
+<% 3.times do |row_index| %>
+  <div class="row">
+    <% 3.times do |col_index| %>
+      <div class="col-lg-4">
+        <p>Pretty cool use of Ruby to build a grid layout</p>
+        <button type="button" class="btn">
+          Row <%= row_index+1 %>,
+            Col <%= col_index+1 %>
+        </button>
+      </div>
+      <% end %>
+  </div>
+  <% end %>
