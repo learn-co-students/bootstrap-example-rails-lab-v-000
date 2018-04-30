@@ -1,0 +1,137 @@
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-30 13:49:59 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2322ms
+
+ActionView::Template::Error (undefined local variable or method `path' for #<#<Class:0x00000004efcc30>:0x00000004ef3518>):
+     9: <div class="container">
+    10:   <div class="row">
+    11:     <div class="col-4">
+    12:       <p>Here is some stuff. Also, there's a <%= button_to "button", path, class: "btn btn-primary" %></p>
+    13:     </div>
+    14:     <div class="col-4">
+    15: 
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___870196326227944994_41236000'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-30 13:50:44 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.2ms)
+
+
+Started GET "/assets/application.self-5f7df9e36f10b918f5fd6eb9b128889561997881325f4ce2455f8f1065334678.css?body=1" for 127.0.0.1 at 2018-04-30 13:50:44 -0400
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2018-04-30 13:50:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-30 13:58:53 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (Missing partial home/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/chris/code/labs/rails_js/bootstrap-example-rails-lab-v-000/app/views"
+):
+     7: </head>
+     8: <body>
+     9: <div class="container">
+    10:   <%= render 'navbar' %>
+    11:   <div class="row">
+    12:     <div class="col-lg-4">
+    13:       <p>Here is some stuff. Also, there's a <button class="btn" type="button" name="button">Button.</button> </p>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___870196326227944994_69892036152500'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (23.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-30 13:59:49 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Missing partial home/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/chris/code/labs/rails_js/bootstrap-example-rails-lab-v-000/app/views"
+):
+     6:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+     7: </head>
+     8: <body>
+     9:   <%= render 'navbar' %>
+    10: 
+    11: <%= yield %>
+    12: <%= javascript_include_tag "application" %>
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___870196326227944994_69892017188560'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (21.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-30 14:00:07 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 18.0ms)
+
+
+Started GET "/assets/application.self-e8a51e37ae4b773d1775bd258fec229cb1250b4e6cb5155f43855cb1a133e618.css?body=1" for 127.0.0.1 at 2018-04-30 14:00:07 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-30 14:01:06 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 16.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-30 14:02:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-30 14:03:53 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.9ms)
