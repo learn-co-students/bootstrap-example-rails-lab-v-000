@@ -6,7 +6,52 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
+  <div class="container">
+    <nav class="nav">
+      <ul class="nav navbar-nav">
+        <li class="nave-item active">
+          <a class="nav-link" href="#">Home</a></li>
+        <li class="nave-item active">
+          <a class="nav-link" href="#">About</a></li>
+        <li class="nave-item active">
+          <a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </nav>
 
+    <div class="row">
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+      <div class="col-lg-4">
+        <p> text <button type="button" class="btn btn-primary">Primary</button></p>
+      </div>
+    </div>
+  </div>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
