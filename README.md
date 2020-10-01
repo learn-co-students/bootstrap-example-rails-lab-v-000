@@ -1,8 +1,8 @@
 # Bootstrap Example Rails Lab
 
-## Objectives
+## Objectives:
 
-1. Integrate Bootstrap into a Rails App via the Bootstrap Gem
+1) Integrate Bootstrap into a Rails App via the Bootstrap Gem
 
 ## Outline
 For this lab we will be integrating Twitter Bootstrap into our application. Once everything is complete, make sure to run the tests to validate your work.
@@ -10,8 +10,8 @@ For this lab we will be integrating Twitter Bootstrap into our application. Once
 ## Instructions
 
 - Add the [Bootstrap SASS Gem](https://github.com/twbs/bootstrap-sass) to the Gemfile.
-- Add the correct statements to the CSS manifest
-- Create a basic grid layout
+- Add the correct statements to the CSS manifest.
+- Create a basic grid layout:
   - Inside the `<body>` tag, create a `<div>` tag with the CSS class
     `container`.
   - Inside the `container` element, create 3 `<div>` tags with the CSS class
